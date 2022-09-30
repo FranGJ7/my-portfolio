@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import { Footer } from '../src/components/footer'
 import { Header } from '../src/components/header'
-import { About } from './about'
-import { Projects } from './projects'
 
 export default function Home() {
   return (
@@ -18,9 +16,9 @@ export default function Home() {
       <Header/>
 
       <main className={styles.main}>
-        <Projects/>
+        
 
-        <About/>
+        
 
       </main>
 
