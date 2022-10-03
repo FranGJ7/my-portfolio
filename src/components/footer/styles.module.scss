@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid;
+    color: white;
+    background-color: black;
+}
+.boxContact{
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.4s ease;
+}
+.title{
+   padding-bottom: 20px;
+}
+.subTitle{
+    transition: 0.4s ease;
+    &:hover {
+        color: #ffffff;
+      }
+}
