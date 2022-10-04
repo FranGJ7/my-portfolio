@@ -3,7 +3,6 @@
     justify-content: space-around;
     background-color:black;
 }
-
 .boxLinks{
     display: flex;
     padding: 20px;
@@ -41,4 +40,30 @@
         transition: 0.7s;
         }
     }
+}
+@media(max-width:820px){
+    .header{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+  .boxLinks{
+    padding: 10px;
+    gap: 25px;
+  }
+  .portifolioIcon{
+    padding-top:10px;
+}
+.linksHeader{
+    padding-top: 8px;
+    font-size: 1.2rem;
+}
+.socialIcons{
+    padding-top: 10px;
+}
+}
+@media(max-width:690px){
+    .boxLinks{
+        flex-wrap: wrap;
+         gap: 10px;
+      }
 }

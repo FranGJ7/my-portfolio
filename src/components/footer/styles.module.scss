@@ -21,3 +21,19 @@
         color: #ffffff;
       }
 }
+@media(max-width:710px){
+.title{
+    font-size: 1rem;
+}
+.subTitle{
+    font-size: 0.8rem;
+}
+}
+@media(max-width:589px){ 
+      .footer{
+        flex-wrap: wrap;
+      }
+      .boxContact{
+        text-align: center;
+      }
+}
