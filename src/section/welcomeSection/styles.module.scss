@@ -20,9 +20,9 @@
 }
 .title{
     line-height:72px;
-    font-size: 65px;
+    font-size: 75px;
     background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .subTitle{
@@ -35,14 +35,14 @@
     font-size: 25px;
     font-weight: bold;
     background-color: transparent;
-    border: none; 
+    border: solid 1px;
     width: 200px;
     height: 60px;
     border-radius: 10px;
     cursor: pointer;
-    transition:1s;
+    transition:0.5s;
     &:hover{
-         border: solid 1px;
-         
+         color: rgba(255, 255, 255, 0.5);
+         border: none;
     }
 }

@@ -4,6 +4,7 @@ import { Footer } from '../src/components/footer'
 import { Header } from '../src/components/header'
 import { WelcomeSection } from '../src/section/welcomeSection'
 import { Projects } from '../src/section/projects'
+import { Tech } from '../src/section/tech/tech'
 
 export default function Home() {
   return (
@@ -18,8 +19,10 @@ export default function Home() {
       <main className={styles.main}>
     
       <WelcomeSection/>
-      
+    
       <Projects/>
+
+      <Tech/>
 
       </main>
 
