@@ -2,6 +2,8 @@ import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import { Footer } from '../src/components/footer'
 import { Header } from '../src/components/header'
+import { WelcomeSection } from '../src/section/welcomeSection'
+import { Projects } from '../src/section/projects'
 
 export default function Home() {
   return (
@@ -12,13 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
     <div className={styles.container}>
-    
       <Header/>
-
       <main className={styles.main}>
-        
-
-        
+    
+      <WelcomeSection/>
+      
+      <Projects/>
 
       </main>
 

@@ -1,0 +1,48 @@
+.container{
+    background-image: linear-gradient(to top, #000000, #1515156e), url("../../../public/background.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-bottom: 100px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.titleSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+   
+    
+}
+.title{
+    line-height:72px;
+    font-size: 65px;
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subTitle{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.button{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none; 
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:1s;
+    &:hover{
+         border: solid 1px;
+         
+    }
+}
