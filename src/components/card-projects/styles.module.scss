@@ -32,14 +32,19 @@
      padding: 20px;
 }
 .button{
-    background-color: blue;
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: bold;
     color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 1px;
     margin: 20px;
-    width: 80px;
+    width: 100px;
     height: 30px;
+    border-radius:3px;
+    cursor: pointer;
+    transition:0.5s;
+    &:hover{
+         border-color: rgb(255, 51, 51);
+    }
 }

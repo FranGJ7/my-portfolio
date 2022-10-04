@@ -5,6 +5,7 @@ import { Header } from '../src/components/header'
 import { WelcomeSection } from '../src/section/welcomeSection'
 import { Projects } from '../src/section/projects'
 import { Tech } from '../src/section/tech/tech'
+import { AboutMe } from '../src/section/aboutMe'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Projects/>
 
       <Tech/>
+      <AboutMe/>
 
       </main>
 

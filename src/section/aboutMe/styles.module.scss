@@ -1,20 +1,16 @@
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 50px;
     padding-left: 18%;
     padding-right: 18%;
 }
-
-.title {
+.title{
     font-family: 'Space Grotesk', sans-serif;
     font-size: 60px;
     background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.boxCards{
-    padding-bottom: 50px;
-    padding-top: 50px; 
+.subTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
 }
