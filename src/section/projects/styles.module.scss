@@ -18,3 +18,32 @@
     padding-bottom: 50px;
     padding-top: 50px; 
 }
+
+
+
+
+@media(max-width:1024px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .title {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:630px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .title {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:375px) {
+    .title {
+        font-size: 39px;
+    }
+}

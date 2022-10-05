@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss"
+import {GiPaperClip} from "react-icons/gi"
 
 export const WelcomeSection = () => (
     <>
@@ -9,7 +10,7 @@ export const WelcomeSection = () => (
                     projetos pessoal e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
                     linha do tempo de minha jornada como Desenvolvedor. </p>
             </div>
-            <button className={styles.button}>CV</button>
+            <button className={styles.button}>CV <GiPaperClip size={15}/></button>
         </div>
     </>
 )
