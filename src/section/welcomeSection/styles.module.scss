@@ -25,7 +25,7 @@
 .subTitle {
     padding-top: 20px;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.644);
 }
 
 .button {
@@ -48,8 +48,10 @@
 
 @media(max-width:1024px) {
     .container {
+        background-image: linear-gradient(to top, #0000009d, #15151550), url("../../../public/background.jpg");
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 60px;
     }
 
     .titleSection {
@@ -77,6 +79,7 @@
     .container {
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 40px;
     }
 
     .titleSection {
@@ -95,7 +98,7 @@
 
     .button {
         width: 120px;
-        height: 40px;
+        height: 35px;
         font-size: 16px; 
     }
 }
@@ -103,7 +106,6 @@
     .titleSection {
         padding-top: 15px;
     }
-
     .title {
         font-size: 39px;
     }

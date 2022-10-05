@@ -7,7 +7,7 @@ export const Projects = () =>{
    return(
       <>
       <div className={styles.container}>
-       <h2 className={styles.title}>Projects</h2>
+       <h2 className={styles.title}>Projetos</h2>
 
       <div className={styles.boxCards}>
           

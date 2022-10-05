@@ -9,11 +9,28 @@ export const SplideCards = () =>{
      return(
         <Splide 
         options={ {
-            perPage:4,
+            perPage:7,
             arrows:false,
-            
+            height:150,
+            breakpoints: {
+              1900: {
+                perPage:5,
+            },
+            1500: {
+                perPage: 4,
+              },
+            1200: {
+              perPage: 3,
+            },
+            730: {
+              perPage: 2,
+            },
+            500: {
+              perPage: 1,
+            },
+          },
           } }
-        aria-label="My Favorite Images">
+        >
 
        
         <SplideSlide>
@@ -75,7 +92,7 @@ export const SplideCards = () =>{
         <SplideSlide>
         <div className={styles.card} >
             <h4 className={styles.date}>08/2022</h4>
-            <p className={styles.description}>Método Scrum UX/UI Gitflow</p>
+            <p className={styles.description}>Método Scrum UX/UI Gitflow Next.js</p>
           </div>
         </SplideSlide>
 
@@ -85,14 +102,6 @@ export const SplideCards = () =>{
             <p className={styles.description}>Docker Testes Unitários e Design patterns</p>
           </div>
         </SplideSlide>
-
-
-       
-
-
-
-
-
 
       </Splide>
 

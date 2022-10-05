@@ -28,10 +28,10 @@ export const Tech = () =>
 
                 <div className={styles.techCards}>
                     <FaFigma size='1.8rem' />
-                    <h3 className={styles.titleCard}>UI/UX</h3>
+                    <h3 className={styles.titleCard}>UI/UX </h3>
                     <p className={styles.subTitleCard}>Experiência com Figma</p>
                 </div>
-            </div>
+            </div> 
         </div>
 
     </>
