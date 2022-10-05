@@ -22,6 +22,20 @@
     padding: 100px;
 }
 
+.boxArrow{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.arrow{
+    cursor: pointer;
+    width: 50px;
+}
+
+
+
+
 @media(max-width:1024px) {
     .container {
         padding-left: 10%;
@@ -40,7 +54,7 @@
         padding-right: 5%;
     }
     .title {
-        font-size: 45px;
+        font-size: 45px; 
     }
     .subTitle {
         font-size: 16px;

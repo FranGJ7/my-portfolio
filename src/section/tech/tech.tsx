@@ -5,7 +5,7 @@ import { FaDatabase, FaFigma } from "react-icons/fa"
 export const Tech = () =>
 (
     <>
-        <div className={styles.container}>
+        <div id="tech" className={styles.container}>
             <h2 className={styles.title}>Tecnologias</h2>
             <p className={styles.subTitle}>Como Desenvolvedor Fullstack estou sempre práticando algumas tecnologias que defini como base para aprendizado e não correr risco de 
             ficar pulando de uma para outra e acaba me perdendo, Front sempre a base HTML, SASS, React e Figma para criação das Mockup, em Back Mongose e Sequelize para criação

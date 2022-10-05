@@ -6,12 +6,10 @@ import Link from "next/link";
 
 export const Header = () => (
    <>
-      <div className={styles.header}>
+      <div id="start" className={styles.header}>
 
          <div className={styles.portifolioIcon}>
-         <Link href="/">
             <p className={styles.linksHeader}> <TbWorld/> Portifólio</p>
-         </Link>
          </div>
 
          

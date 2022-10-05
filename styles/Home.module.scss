@@ -1,0 +1,18 @@
+.iconWhats{
+    color: white;
+    position: fixed;
+    top: calc(100% - 75px);
+    left: calc(100% - 100px);
+}
+@media(max-width:1366px){
+    .iconWhats{
+    width: 30px;
+    top: calc(100% - 65px);
+    left: calc(100% - 75px);
+    }
+}
+@media(max-width:1366px){
+    .iconWhats{
+    top: calc(100% - 90px);
+    }
+}

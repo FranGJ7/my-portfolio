@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: cover;
     font-family: 'Space Grotesk', sans-serif;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 18%;
     padding-right: 18%;
 }
@@ -28,21 +28,21 @@
     color: rgba(255, 255, 255, 0.644);
 }
 
-.button {
-    margin-top: 40px;
+.button{
     font-family: 'Space Grotesk', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: bold;
     background-color: transparent;
-    border: none;
-    width: 120px;
-    height: 45px;
-    border-radius: 10px;
+    border: solid 1px; 
+    margin-top: 50px;
+    width: 130px;
+    height: 30px;
+    border-radius:3px;
     cursor: pointer;
-    transition: 0.5s;
-
-    &:hover {
-        border: solid 1px;
+    transition:0.5s;
+    &:hover{
+        border-color: #00bfff;
     }
 }
 
@@ -65,15 +65,10 @@
     }
 
     .subTitle {
-        font-size: 20px;
-    }
-
-    .button {
-        width: 150px;
-        height: 50px;
-        font-size: 20px;
+        font-size: 20px; 
     }
 }
+   
 
 @media(max-width:630px) {
     .container {
@@ -97,7 +92,7 @@
     }
 
     .button {
-        width: 120px;
+        width: 125px;
         height: 35px;
         font-size: 16px; 
     }
