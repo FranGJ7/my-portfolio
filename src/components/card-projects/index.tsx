@@ -2,119 +2,117 @@ import styles from "./styles.module.scss"
 import Image from "next/image";
 
 
-
-
 export const CardProjects = () => {
 
 
-return(
+  return (
     <>
       <div className={styles.container}>
         <div className={styles.cards}>
 
-            <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <Image
               src="/homeOBC.png"
               alt="capa site EAD"
               width={400}
               height={218}
-              />
-            </div>
+            />
+          </div>
 
-            <h3 className={styles.title}>Site EAD OBC</h3>
-            <hr className={styles.hr}/>
-            <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adcionar favoritos curtir e alterar dados da conta.</p>
-            <h3 style={{color:"red"}} >EM CONSTRUÇÃO...</h3>
-            <a href={"https://github.com/FranGJ7/site-ead-front-end"} target="blank">
+          <h3 className={styles.title}>Site EAD OBC</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adcionar favoritos curtir e alterar dados da conta.</p>
+          <h3 style={{ color: "red" }} >EM CONSTRUÇÃO...</h3>
+          <a href={"https://github.com/FranGJ7/site-ead-front-end"} target="blank">
             <button className={styles.button}>Code</button>
-            </a>
-            <button className={styles.button}>Site</button>
-        </div> 
+          </a>
+          <button className={styles.button}>Site</button>
+        </div>
 
-        
+
         <div className={styles.cards}>
-            <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <Image
               src="/siteimusicplay.png"
               alt="Capa site ImusicPlay"
               width={400}
               height={218}
-              />
-            </div>
-            <h3 className={styles.title}>MusicPlay</h3> 
-            <hr className={styles.hr}/>
-            <p className={styles.subTitle}>Site de música baseado no Spotify onde usúario pode escutar suas músicas e até acompanhar letras, sugestão de música que combina com seu gosto e região</p>
-            <a href={"https://github.com/FranGJ7/site-music"} target="blank">
+            />
+          </div>
+          <h3 className={styles.title}>MusicPlay</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Site de música baseado no Spotify onde usúario pode escutar suas músicas e até acompanhar letras, sugestão de música que combina com seu gosto e região</p>
+          <a href={"https://github.com/FranGJ7/site-music"} target="blank">
             <button className={styles.button}>Code</button>
-            </a>
-            <a href={"https://imusicplayapp.netlify.app/"} target="blank">
+          </a>
+          <a href={"https://imusicplayapp.netlify.app/"} target="blank">
             <button className={styles.button}>Site</button>
-            </a>
+          </a>
         </div>
 
         <div className={styles.cards}>
-            <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <Image
               src="/ecommerceblack.png"
               alt="Capa site ImusicPlay"
               width={400}
               height={218}
-              />
-            </div>
-            <h3 className={styles.title}>E-commerce Black</h3> 
-            <hr className={styles.hr}/>
-            <p className={styles.subTitle}>Pequeno E-commerce onde usuário pode ver detalhes do produto adcionar ao carrinho quantos produtos desejar onde vai ser somado o valor e direcionado para finaliza compra.</p>
-            <a href={"https://github.com/FranGJ7/next-store-black"} target="blank">
+            />
+          </div>
+          <h3 className={styles.title}>E-commerce Black</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Pequeno E-commerce onde usuário pode ver detalhes do produto adcionar ao carrinho quantos produtos desejar onde vai ser somado o valor e direcionado para finaliza compra.</p>
+          <a href={"https://github.com/FranGJ7/next-store-black"} target="blank">
             <button className={styles.button}>Code</button>
-            </a>
-            <a href={"https://next-store-black.vercel.app/"} target="blank">
+          </a>
+          <a href={"https://next-store-black.vercel.app/"} target="blank">
             <button className={styles.button}>Site</button>
-            </a>
+          </a>
         </div>
 
         <div className={styles.cards}>
-            <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <Image
               src="/sitefilmes.png"
               alt="Capa site ImusicPlay"
               width={400}
               height={218}
-              />
-            </div>
-            <h3 className={styles.title}>Site de Filme</h3> 
-            <hr className={styles.hr}/>
-            <p className={styles.subTitle}>Site de informações sobre filme onde encontra Top 20 melhores, busca  especifica ou por gêneros, econtra avaliação dos filmes ano de lançamento e sinopse. </p>
-            <a href={"https://github.com/FranGJ7/site-sobre-filmes"} target="blank">
+            />
+          </div>
+          <h3 className={styles.title}>Site de Filme</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Site de informações sobre filme onde encontra Top 20 melhores, busca  especifica ou por gêneros, econtra avaliação dos filmes ano de lançamento e sinopse. </p>
+          <a href={"https://github.com/FranGJ7/site-sobre-filmes"} target="blank">
             <button className={styles.button}>Code</button>
-            </a>
-            <a href={"https://siteaboutmovie.netlify.app/"} target="blank">
+          </a>
+          <a href={"https://siteaboutmovie.netlify.app/"} target="blank">
             <button className={styles.button}>Site</button>
-            </a>
+          </a>
         </div>
 
 
         <div className={styles.cards}>
-            <div className={styles.imageCard}>
+          <div className={styles.imageCard}>
             <Image
               src="/sportmax.png"
               alt="Capa site ImusicPlay"
               width={400}
               height={218}
-              />
-            </div>
-            <h3 className={styles.title}>Site SportMax</h3> 
-            <hr className={styles.hr}/>
-            <p className={styles.subTitle}>Projeto criado no inicio para aprender responsividade bem básico apenas com HTML e CSS com site de esporte fictício.</p>
-            <a href={"https://github.com/FranGJ7/Projeto-responsivo-css"} target="blank">
+            />
+          </div>
+          <h3 className={styles.title}>Site SportMax</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Projeto criado no inicio para aprender responsividade bem básico apenas com HTML e CSS com site de esporte fictício.</p>
+          <a href={"https://github.com/FranGJ7/Projeto-responsivo-css"} target="blank">
             <button className={styles.button}>Code</button>
-            </a>
-            <a href={"https://sportmax.netlify.app/"} target="blank">
+          </a>
+          <a href={"https://sportmax.netlify.app/"} target="blank">
             <button className={styles.button}>Site</button>
-            </a>
+          </a>
         </div>
-        
-        </div>
+
+      </div>
     </>
 
-);
+  );
 }
