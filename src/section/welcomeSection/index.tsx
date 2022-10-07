@@ -7,7 +7,7 @@ export const WelcomeSection = () => (
             <div className={styles.titleSection}>
                 <h2 className={styles.title}>Bem vindo ao Portfólio Web Fullstack</h2>
                 <p className={styles.subTitle}>Aqui você vai encontrar meus trabalhos feito como
-                    projetos pessoal e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
+                    projetos pessoais e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
                     linha do tempo de minha jornada como Desenvolvedor. </p>
             </div>
             <a href="https://drive.google.com/file/d/19YimB8t1BZzUn2Pp0qlJUvzw9PhtoOlB/view" target="blank">

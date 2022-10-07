@@ -54,7 +54,7 @@ export const SplideCards = () => {
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>04/2022</h4>
-          <p className={styles.description}>Ferramenata de versionamento Git e GitHub</p>
+          <p className={styles.description}>Ferramenta de versionamento Git e GitHub</p>
         </div>
       </SplideSlide>
 

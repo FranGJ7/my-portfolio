@@ -21,7 +21,7 @@ export const CardProjects = () => {
 
           <h3 className={styles.title}>Site EAD OBC</h3>
           <hr className={styles.hr} />
-          <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adcionar favoritos curtir e alterar dados da conta.</p>
+          <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adicionar favoritos curtir e alterar dados da conta.</p>
           <h3 style={{ color: "red" }} >EM CONSTRUÇÃO...</h3>
           <a href={"https://github.com/FranGJ7/site-ead-front-end"} target="blank">
             <button className={styles.button}>Code</button>
@@ -61,7 +61,7 @@ export const CardProjects = () => {
           </div>
           <h3 className={styles.title}>E-commerce Black</h3>
           <hr className={styles.hr} />
-          <p className={styles.subTitle}>Pequeno E-commerce onde usuário pode ver detalhes do produto adcionar ao carrinho quantos produtos desejar onde vai ser somado o valor e direcionado para finaliza compra.</p>
+          <p className={styles.subTitle}>Pequeno E-commerce onde usuário pode ver detalhes do produto adicionar ao carrinho quantos produtos desejar onde vai ser somado o valor e direcionado para finalizar compra.</p>
           <a href={"https://github.com/FranGJ7/next-store-black"} target="blank">
             <button className={styles.button}>Code</button>
           </a>
@@ -81,7 +81,7 @@ export const CardProjects = () => {
           </div>
           <h3 className={styles.title}>Site de Filme</h3>
           <hr className={styles.hr} />
-          <p className={styles.subTitle}>Site de informações sobre filme onde encontra Top 20 melhores, busca  especifica ou por gêneros, econtra avaliação dos filmes ano de lançamento e sinopse. </p>
+          <p className={styles.subTitle}>Site de informações sobre filme onde encontra Top 20 melhores, busca  especifica ou por gêneros, encontra avaliação dos filmes ano de lançamento e sinopse. </p>
           <a href={"https://github.com/FranGJ7/site-sobre-filmes"} target="blank">
             <button className={styles.button}>Code</button>
           </a>
