@@ -1,25 +1,25 @@
 .iconWhats{
     color: white;
     position: fixed;
-    top: calc(100% - 190px);
+    top: calc(100% - 75px);
     left: calc(100% - 100px);
 }
 @media(max-width:1366px){
     .iconWhats{
-    
-    top: calc(100% - 200px);
+    width: 30px;
+    top: calc(100% - 90px);
     left: calc(100% - 75px);
     }
 }
 @media(max-width:588px){
     .iconWhats{
-    top: calc(100% - 280px);
+    top: calc(100% - 70px);
     left: calc(100% - 75px);
     }
 }
 @media(max-width:345px){
     .iconWhats{
-    top: calc(100% - 390px);
+    top: calc(100% - 100px);
     left: calc(100% - 75px);
     }
 }
