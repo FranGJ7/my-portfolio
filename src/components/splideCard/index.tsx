@@ -8,7 +8,7 @@ export const SplideCards = () => {
     <Splide
       options={{
         perPage: 7,
-        arrows: false,
+        arrows: true,
         height: 150,
         breakpoints: {
           1900: {
