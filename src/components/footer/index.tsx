@@ -22,7 +22,7 @@ export const Footer = () => (
             </p>
          </div>
          <div className={styles.boxContact}>
-            <WiAlien size={"30px"} />
+            <WiAlien size={"30px"} className={styles.titleAlien}/>
             <p className={styles.subTitle}>Feito por Fran Inovando projetos.</p>
          </div>
       </div>

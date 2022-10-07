@@ -9,7 +9,7 @@ export const Header = () => (
       <div id="start" className={styles.header}>
 
          <div className={styles.portifolioIcon}>
-            <p className={styles.linksHeader}> <TbWorld /> Portifólio</p>
+            <p className={styles.linksHeader}> <TbWorld /> Portfólio</p>
          </div>
 
 

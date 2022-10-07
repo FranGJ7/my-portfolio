@@ -22,7 +22,7 @@ export const CardProjects = () => {
           <h3 className={styles.title}>Site EAD OBC</h3>
           <hr className={styles.hr} />
           <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adicionar favoritos curtir e alterar dados da conta.</p>
-          <h3 style={{ color: "red" }} >EM CONSTRUÇÃO...</h3>
+          
           <a href={"https://github.com/FranGJ7/site-ead-front-end"} target="blank">
             <button className={styles.button}>Code</button>
           </a>
@@ -93,7 +93,7 @@ export const CardProjects = () => {
 
         <div className={styles.cards}>
           <div className={styles.imageCard}>
-            <Image
+            <Image 
               src="/sportmax.png"
               alt="Capa site ImusicPlay"
               width={400}
