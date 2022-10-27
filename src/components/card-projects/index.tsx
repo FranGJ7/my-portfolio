@@ -8,6 +8,54 @@ export const CardProjects = () => {
   return (
     <>
       <div className={styles.container}>
+
+
+
+
+
+        <div className={styles.cards}>
+
+          <div className={styles.imageCard}>
+            <Image
+              src="/siteshowcase.gif"
+              alt="capa site EAD"
+              width={400}
+              height={218}
+            />
+          </div>
+
+          <h3 className={styles.title}>NFT Marketplace</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>LandingPage para divulgar App Mobile De NFT, lá você pode dar lances, curtir e ver detalhes de cada NFT.</p>
+
+          <a href={"https://github.com/FranGJ7/showcase-nftapp"} target="blank">
+            <button className={styles.button}>Code</button>
+          </a>
+          <a href={"https://nft-marketplace-project1.netlify.app/"} target="blank">
+          <button className={styles.button}>Site</button>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className={styles.cards}>
 
           <div className={styles.imageCard}>
@@ -19,10 +67,10 @@ export const CardProjects = () => {
             />
           </div>
 
-          <h3 className={styles.title}>Site EAD OBC</h3>
+          <h3 className={styles.title}>EAD OBC</h3>
           <hr className={styles.hr} />
           <p className={styles.subTitle}>Site de cursos online, onde alunos tem que se cadastrar para ter acesso aos cursos com opção de adicionar favoritos curtir e alterar dados da conta.</p>
-          
+
           <a href={"https://github.com/FranGJ7/site-ead-front-end"} target="blank">
             <button className={styles.button}>Code</button>
           </a>
@@ -93,7 +141,7 @@ export const CardProjects = () => {
 
         <div className={styles.cards}>
           <div className={styles.imageCard}>
-            <Image 
+            <Image
               src="/sportmax.png"
               alt="Capa site ImusicPlay"
               width={400}
