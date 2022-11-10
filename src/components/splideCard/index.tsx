@@ -89,7 +89,7 @@ export const SplideCards = () => {
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>08/2022</h4>
-          <p className={styles.description}>Método Scrum UX/UI Gitflow Next.js</p>
+          <p className={styles.description}>Método Scrum UX/UI Figma Gitflow Next.js</p>
         </div>
       </SplideSlide>
 
@@ -97,6 +97,13 @@ export const SplideCards = () => {
         <div className={styles.card} >
           <h4 className={styles.date}>09/2022</h4>
           <p className={styles.description}>Docker Testes Unitários e Design patterns</p>
+        </div>
+      </SplideSlide>
+
+      <SplideSlide>
+        <div className={styles.card} >
+          <h4 className={styles.date}>10/2022</h4>
+          <p className={styles.description}>Angular <br /> Styled-Components Ciências da computação</p>
         </div>
       </SplideSlide>
 

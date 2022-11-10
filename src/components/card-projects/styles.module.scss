@@ -39,10 +39,10 @@
 }
 .button{
     font-family: 'Space Grotesk', sans-serif;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: bold;
-    background-color: transparent;
+    background-color: #00bfff;
     border: solid 1px;
     margin: 20px;
     width: 100px;
@@ -51,6 +51,8 @@
     cursor: pointer;
     transition:0.5s;
     &:hover{
+        color: white;
+        background-color: transparent;
         border-color: #00bfff;
     }
 }

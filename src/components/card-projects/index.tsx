@@ -10,6 +10,60 @@ export const CardProjects = () => {
       <div className={styles.container}>
 
 
+        <div className={styles.cards}>
+
+          <div className={styles.imageCard}>
+            <Image
+              src="/recipes.gif"
+              alt="site-recipes"
+              width={400}
+              height={218}
+            />
+          </div>
+
+          <h3 className={styles.title}>Site de Receitas</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Site de receitas criado para primeiro contato com Angular e consumindo Api da Spoonacular, site com completa responsividade.</p>
+
+          <a href={"https://github.com/FranGJ7/recipes-angular"} target="blank">
+            <button className={styles.button}>Code</button>
+          </a>
+          <a href={"https://healty-recipes.netlify.app/"} target="blank">
+            <button className={styles.button}>Site</button>
+          </a>
+        </div>
+
+
+
+
+
+        <div className={styles.cards}>
+
+          <div className={styles.imageCard}>
+            <Image
+              src="/figma-to-code.gif"
+              alt="site-figma-pousada"
+              width={400}
+              height={218}
+            />
+          </div>
+
+          <h3 className={styles.title}>Site Vivace</h3>
+          <hr className={styles.hr} />
+          <p className={styles.subTitle}>Site de pousada fictícia com designer criado em Figma e passado para código com completa responsividade.</p>
+
+          <a href={"https://github.com/FranGJ7/vivace-figma"} target="blank">
+            <button className={styles.button}>Code</button>
+          </a>
+          <a href={"https://vivace-figma.netlify.app/"} target="blank">
+            <button className={styles.button}>Site</button>
+          </a>
+        </div>
+
+
+
+
+
 
 
 
@@ -32,26 +86,9 @@ export const CardProjects = () => {
             <button className={styles.button}>Code</button>
           </a>
           <a href={"https://nft-marketplace-project1.netlify.app/"} target="blank">
-          <button className={styles.button}>Site</button>
+            <button className={styles.button}>Site</button>
           </a>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -76,6 +113,8 @@ export const CardProjects = () => {
           </a>
           <button className={styles.button}>Site</button>
         </div>
+
+
 
 
         <div className={styles.cards}>
