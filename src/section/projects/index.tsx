@@ -3,6 +3,8 @@ import styles from "./styles.module.scss"
 
 export const Projects = () => {
 
+   
+
    return (
       <>
          <div id="projects" className={styles.container}>
@@ -10,8 +12,7 @@ export const Projects = () => {
             <h2 className={styles.title}>Projetos</h2>
 
             <div className={styles.boxCards}>
-
-               <CardProjects />
+              <CardProjects/>
             </div>
 
          </div>
