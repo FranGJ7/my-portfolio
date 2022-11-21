@@ -6,6 +6,7 @@ import recipes from "../assets/img/recipes.gif"
 import showCase from "../assets/img/siteshowcase.gif"
 import sport from "../assets/img/sport.gif"
 import music from "../assets/img/music.gif"
+import lucapel from "../assets/img/lucapel.gif"
 
 export default{
     vivace,
@@ -15,5 +16,6 @@ export default{
     recipes,
     showCase,
     sport,
-    music
+    music,
+    lucapel
 }

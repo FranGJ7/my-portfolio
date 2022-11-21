@@ -10,7 +10,7 @@ export const WelcomeSection = () => (
                     projetos pessoais e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
                     linha do tempo de minha jornada como Desenvolvedor. </p>
             </div>
-            <a href="https://drive.google.com/file/d/1kb4npdDAZgfbMwPGlsLnw7FUH2Ii9des/view?usp=sharing" target="blank">
+            <a href="https://drive.google.com/file/d/1kG0S003zyo0s0l8wfncAIEXBj5IBKZDJ/view?usp=sharing" target="blank">
                 <button className={styles.button}>Curriculo <BsFileEarmarkArrowDown size={15} /></button>
             </a>
         </div>
