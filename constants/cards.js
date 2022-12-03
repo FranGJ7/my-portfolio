@@ -2,11 +2,11 @@ import assets from "../constants/assets"
 
 export const CardsInfo = [
     {  
-        id: 0,
+        id: 7,
         image: assets.lucapel,
         title: "Site Lucapel",
-        subTitle: "Trabalho feito como Freelancer para uma empresa de papel, onde se encontra sobre a empresa, formas de contato e exibição de produtos. Site com responsividade e Designer feito por min.",
-        alt: "Imagem site de receitas",
+        subTitle: "Trabalho feito como Freelancer para uma empresa de papel, onde se encontra sobre a empresa, formas de contato e exibição de produtos. Site com responsividade e Designer feito por mim.",
+        alt: "Imagem site Lucapel",
         linkCode: "https://github.com/FranGJ7/lucapel",
         linkSite: "https://www.lucapel.ind.br/"
     },
@@ -20,7 +20,7 @@ export const CardsInfo = [
         linkSite: "https://healty-recipes.netlify.app/"
     },
     {
-        id: 2,
+        id: 6,
         image: assets.vivace,
         title: "Site Vivace",
         subTitle: "Site de pousada fictícia com designer criado em Figma e passado para código com completa responsividade.",
@@ -29,7 +29,7 @@ export const CardsInfo = [
         linkSite: "https://vivace-figma.netlify.app/"
     },
     {
-        id: 3,
+        id: 5,
         image: assets.showCase,
         title: "NFT Marketplace",
         subTitle: "LandingPage para divulgar App Mobile De NFT, lá você pode dar lances, curtir e ver detalhes de cada NFT.",
@@ -47,7 +47,7 @@ export const CardsInfo = [
         linkSite: ""
     },
     {
-        id: 5,
+        id: 3,
         image: assets.music,
         title: "MusicPlay",
         subTitle: "Site de música baseado no Spotify onde usúario pode escutar suas músicas e até acompanhar letras, sugestão de música que combina com seu gosto e região",
@@ -56,7 +56,7 @@ export const CardsInfo = [
         linkSite: "https://imusicplayapp.netlify.app/"
     },
     {
-        id: 6,
+        id: 2,
         image: assets.iblack,
         title: "E-commerce Black",
         subTitle: "Pequeno E-commerce onde usuário pode ver detalhes do produto adicionar ao carrinho quantos produtos desejar onde vai ser somado o valor e direcionado para finalizar compra.",
@@ -65,7 +65,7 @@ export const CardsInfo = [
         linkSite: "https://next-store-black.vercel.app/"
     },
     {
-        id: 7,
+        id: 1,
         image: assets.movie,
         title: "Site de Filme",
         subTitle: "Site de informações sobre filme onde encontra Top 20 melhores, busca  especifica ou por gêneros, encontra avaliação dos filmes ano de lançamento e sinopse.",
@@ -74,7 +74,7 @@ export const CardsInfo = [
         linkSite: "https://siteaboutmovie.netlify.app/"
     },
     {
-        id: 8,
+        id: 0,
         image: assets.sport,
         title: "Site SportMax",
         subTitle: "Projeto criado no inicio para aprender responsividade bem básico apenas com HTML e CSS com site de esporte fictício.",

@@ -5,12 +5,12 @@ export const WelcomeSection = () => (
     <>
         <div className={styles.container}>
             <div className={styles.titleSection}>
-                <h2 className={styles.title}>Bem vindo ao Portfólio Web Fullstack</h2>
+                <h2 className={styles.title}>Bem vindo ao Portfólio Front-End</h2>
                 <p className={styles.subTitle}>Aqui você vai encontrar meus trabalhos feito como
                     projetos pessoais e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
                     linha do tempo de minha jornada como Desenvolvedor. </p>
             </div>
-            <a href="https://drive.google.com/file/d/1kG0S003zyo0s0l8wfncAIEXBj5IBKZDJ/view?usp=sharing" target="blank">
+            <a href="https://docs.google.com/document/d/1r6Ps5D-jcriCm0LeuY741zv2emgMwpLaWg2N5OqRqI0/edit?usp=sharing" target="blank">
                 <button className={styles.button}>Curriculo <BsFileEarmarkArrowDown size={15} /></button>
             </a>
         </div>
