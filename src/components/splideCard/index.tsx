@@ -33,35 +33,35 @@ export const SplideCards = () => {
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>01/2022</h4>
-          <p className={styles.description}>Inicio da jornada Programador Javascript FullStack</p>
+          <p className={styles.description}>Inicio da jornada Desenvolvedor Javascript FullStack</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>02/2022</h4>
-          <p className={styles.description}>Práticas básica com HTML CSS</p>
+          <p className={styles.description}>HTML5 <br /> CSS3 <br /> SCSS </p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>03/2022</h4>
-          <p className={styles.description}>Lógica de programação com Javascript</p>
+          <p className={styles.description}>Lógica de programação <br /> com Javascript</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>04/2022</h4>
-          <p className={styles.description}>Ferramenta de versionamento Git e GitHub</p>
+          <p className={styles.description}>Ferramenta de versionamento Git <br /> GitHub</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>05/2022</h4>
-          <p className={styles.description}>Avançando em  Front Bootstrap SCSS React e conexão com Api</p>
+          <p className={styles.description}> Bootstrap <br /> React <br /> conexão com Api</p>
         </div>
       </SplideSlide>
 
@@ -75,35 +75,42 @@ export const SplideCards = () => {
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>07/2022</h4>
-          <p className={styles.description}>Inicio de Freelancer e Projetos próprios</p>
+          <p className={styles.description}>Freelancer <br /> Projetos pessoais <br />Scrum</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>08/2022</h4>
-          <p className={styles.description}>Criação de Api completa com Sequelize Node.js</p>
+          <p className={styles.description}>Api <br /> Sequelize <br /> Node.js</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>08/2022</h4>
-          <p className={styles.description}>Método Scrum UX/UI Figma Gitflow Next.js</p>
+          <p className={styles.description}>UX/UI <br />  Figma <br /> Gitflow <br /> Next.js</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>09/2022</h4>
-          <p className={styles.description}>Docker Testes Unitários e Design patterns</p>
+          <p className={styles.description}>Docker <br /> Testes Unitários <br /> Design patterns</p>
         </div>
       </SplideSlide>
 
       <SplideSlide>
         <div className={styles.card} >
           <h4 className={styles.date}>10/2022</h4>
-          <p className={styles.description}>Angular <br /> Styled-Components Ciências da computação</p>
+          <p className={styles.description}>Angular <br />Analise e desenvolvimento de sistemas </p>
+        </div>
+      </SplideSlide>
+
+      <SplideSlide>
+        <div className={styles.card} >
+          <h4 className={styles.date}>11/2022</h4>
+          <p className={styles.description}>React-Native <br />Styled-Components CC50-Harvard </p>
         </div>
       </SplideSlide>
 
