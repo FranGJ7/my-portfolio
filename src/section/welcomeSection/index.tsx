@@ -5,7 +5,7 @@ export const WelcomeSection = () => (
     <>
         <div className={styles.container}>
             <div className={styles.titleSection}>
-                <h2 className={styles.title}>Bem vindo ao Portfólio Front-End</h2>
+                <h2 className={styles.title}>Bem vindo ao Portfólio FullStack</h2>
                 <p className={styles.subTitle}>Aqui você vai encontrar meus trabalhos feito como
                     projetos pessoais e Freelancer com acesso ao link do site e código fonte, também foi criado  uma
                     linha do tempo de minha jornada como Desenvolvedor. </p>
