@@ -7,6 +7,7 @@ export const SplideCards = () => {
   return (
     <Splide
       options={{
+        pagination: false,
         perPage: 7,
         arrows: true,
         height: 150,
@@ -21,9 +22,11 @@ export const SplideCards = () => {
             perPage: 3,
           },
           730: {
+            width:400,
             perPage: 2,
           },
           500: {
+            width:240,
             perPage: 1,
           },
         },
@@ -113,6 +116,23 @@ export const SplideCards = () => {
           <p className={styles.description}>React-Native <br />Styled-Components CC50-Harvard </p>
         </div>
       </SplideSlide>
+
+
+      <SplideSlide>
+        <div className={styles.card} >
+          <h4 className={styles.date}>12/2022</h4>
+          <p className={styles.description}> Fim do 1°Semestre <br /> WebSocket <br />Jest</p>
+        </div>
+      </SplideSlide>
+
+      <SplideSlide>
+        <div className={styles.card} >
+          <h4 className={styles.date}>01/2023</h4>
+          <p className={styles.description}> AWS <br /> Expo</p>
+        </div>
+      </SplideSlide>
+
+
 
     </Splide>
 

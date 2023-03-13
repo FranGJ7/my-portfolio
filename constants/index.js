@@ -1,3 +1,4 @@
-import {CardsInfo} from "../constants/cards"
+import { CardsInfoWeb } from "./cards-web.js"
+import { CardsInfoMobile } from "./cards-mobile.js"
 
-export {CardsInfo} 
+export { CardsInfoWeb, CardsInfoMobile }   

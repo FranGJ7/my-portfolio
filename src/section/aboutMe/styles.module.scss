@@ -1,10 +1,9 @@
 .container {
     padding-top: 60px;
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-bottom: 80px;
 }
-
 .title {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 60px;
@@ -25,13 +24,14 @@
     padding: 100px;
 }
 
+
 .boxArrow {
     padding-top: 50px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
-
+ 
 .arrow {
     cursor: pointer;
     width: 50px;
@@ -39,8 +39,8 @@
 
 @media(max-width:1024px) {
     .container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .title {
@@ -50,6 +50,12 @@
     .subTitle {
         font-size: 20px;
     }
+}
+@media(max-width:730px) {
+.splideCard {
+    display: flex;
+    justify-content: center;
+}
 }
 
 @media(max-width:630px) {

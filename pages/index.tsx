@@ -1,14 +1,20 @@
+import { useState } from "react";
 import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import { Footer } from '../src/components/footer'
 import { Header } from '../src/components/header'
 import { WelcomeSection } from '../src/section/welcomeSection'
-import { Projects } from '../src/section/projects'
+import { ProjectsWeb } from '../src/section/projectsWeb'
+import { ProjectsMobile } from '../src/section/projectsMobile'
 import { Tech } from '../src/section/tech/tech'
 import { AboutMe } from '../src/section/aboutMe'
 import { BsWhatsapp } from "react-icons/bs"
 
 export default function Home() {
+
+  const [selectSection, setSelectSection] = useState(false)
+   
+  
   return (
     <>
       <Head>
@@ -20,10 +26,18 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
 
-          <WelcomeSection />
+          <WelcomeSection 
+          setSelectSection={setSelectSection}
+          />
 
-          <Projects />
 
+          { selectSection ?
+          <ProjectsWeb 
+          
+          />
+          :
+          <ProjectsMobile/>
+}
           <Tech />
 
           <AboutMe />
