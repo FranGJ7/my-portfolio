@@ -102,7 +102,7 @@ const Card = ({ image, title, subTitle, Alt, linkCode, qrExpo, linkExpo }) => {
 
       </div>
 
-      <div>
+      <div className={styles.device}>
         <Image
           src={image}
           alt={Alt}

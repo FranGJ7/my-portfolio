@@ -25,6 +25,14 @@ export const CardProjects = () => {
               850: {
                 perPage: 2,
               },
+              775: {
+                width:400,
+                perPage: 1,
+              },
+              430: {
+                width:296,
+                perPage: 1,
+              },
             },
           }}
         >
