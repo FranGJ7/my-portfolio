@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import { Footer } from '../src/components/footer'
@@ -12,9 +11,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export default function Home() {
 
-  const [selectSection, setSelectSection] = useState(false)
-   
-  
+
   return (
     <>
       <Head>
@@ -26,18 +23,12 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
 
-          <WelcomeSection 
-          setSelectSection={setSelectSection}
-          />
+          <WelcomeSection />
 
+          <ProjectsMobile />
 
-          { selectSection ?
-          <ProjectsWeb 
-          
-          />
-          :
-          <ProjectsMobile/>
-}
+          <ProjectsWeb />
+
           <Tech />
 
           <AboutMe />
