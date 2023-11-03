@@ -132,6 +132,12 @@ export const SplideCards = () => {
         </div>
       </SplideSlide>
 
+      <SplideSlide>
+        <div className={styles.card} >
+          <h4 className={styles.date}>06/2023</h4>
+          <p className={styles.description}> Kotlin <br /> Spring Boot </p>
+        </div>
+      </SplideSlide>
 
 
     </Splide>
