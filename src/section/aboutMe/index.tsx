@@ -7,7 +7,7 @@ export const AboutMe = () => (
     <>
         <div id="about" className={styles.container}>
             <h2 className={styles.title}>Sobre mim</h2>
-            <p className={styles.subTitle}> "Sou Fransérgio, atuo na área de T.I. há alguns anos. No início da minha carreira, trabalhei como desenvolvedor web, realizando projetos freelance. Atualmente, estou direcionando minha expertise para o desenvolvimento mobile, utilizando a tecnologia React Native. Tenho experiência com TypeScript, uma linguagem que ajuda na construção de aplicativos robustos e escaláveis. Além disso, sou especializado em testes unitários utilizando Jest, garantindo a qualidade e confiabilidade do meu código. Também utilizo ferramentas como Git e Docker para controle de versão e gerenciamento eficiente de contêineres. Sou apaixonado por criar experiências de usuário envolventes e funcionais, e estou sempre buscando aprender e me atualizar para entregar soluções de alta qualidade. Vamos conectar e explorar possíveis colaborações!"  
+            <p className={styles.subTitle}> "Dev com experiência em desenvolvimento de aplicativos móveis com React Native e TypeScript, habilidades em gerenciamento de contêineres Docker e conhecimento em AWS e auso de sistema Linux. Além disso, possuo uma paixão pelo desenvolvimento back-end com Spring Boot em Kotlin."  
 </p>
            <div className={styles.splideCard}>
             <SplideCards />
